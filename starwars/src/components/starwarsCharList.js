@@ -5,7 +5,9 @@ import './StarWars.css';
 class StarWarsCharList extends Component {
     render() {
         return (
-            console.log(this.props)
+            <div className="charListContainer">
+                {this.props.starwarsChars.map(starwarsChar => <StarWarsChar key={starwarsChar.created} starwarsChar={starwarsChar} />)}
+            </div>
         )
     }
 }
