@@ -1,0 +1,15 @@
+.charContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.charContainer .charInfoList {
+    padding: 0;
+    list-style-type: none;
+}
