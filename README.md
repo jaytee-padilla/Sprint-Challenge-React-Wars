@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+ReactJS is an open-source JavaScript library that's used for building user interfaces specifically for single page applications. It’s used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components
+
 - [ ] What does it mean to _think_ in react?
+
+Thinking in React means to view each piece of a webpage as a potential reusable component. These reusable component pieces are stitched together via React
 
 - [ ] Describe state.
 
+State is an object that represents the parts of the app that can change. Each component can maintain its own state, which lives in an object called this.state
+
 - [ ] Describe props.
+
+Props is shorthand for "properties" and it stores state within other components. Props is also immutable.
 
 ## Project Set Up
 
